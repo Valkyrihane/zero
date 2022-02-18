@@ -1,0 +1,37 @@
+{
+    "name": "zero",
+    "displayName": "Zero",
+    "description": "Zero, a monochromatic black and white theme, about code and only code.",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Valkyrihane/zero"
+      },
+    "author": "Valkyrihane",
+    "license": "MIT",
+    "publisher": "Valkyrihane",
+    "bugs": {
+        "url": "https://github.com/Valkyrihane/zero/issues"
+    },
+    "homepage": "https://github.com/Valkyrihane/zero#readme",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "images/zero-logo.png",
+    "galleryBanner": {
+      "color": "#ffffff",
+      "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zero",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Zero-color-theme.json"
+            }
+        ]
+    }
+}
